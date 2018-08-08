@@ -1,0 +1,590 @@
+
+	
+body{
+	
+}
+#greeting{
+	
+font-family: 'Bungee', cursive;
+	float:left;
+	font-size:28px;
+	padding-bottom:0;
+}
+#greeting img{
+	width:140px;
+	
+}
+#name{
+	color:#5AA330;
+}
+#hyperlinks{
+	clear:both;
+	background-color:#000000;
+	color:#ffffff;
+	font-size:30px;
+	font-family:'lato';
+}
+#hyperlinks a {
+	
+	background-color:#000000;
+	color:#ffffff;
+	text-decoration:none;
+}
+#hyperlinks ul li{
+	display:inline-block;
+	padding-right:40px;
+}
+#hyperlinks ul li .active{
+	display:inline-block;
+	background-color:#5AA330;
+	
+}
+#hyperlinks ul li :hover{
+	display:inline-block;
+	background-color:#5AA330;
+	
+}
+#footer{
+	background-color:#4d4d4d;
+	font-family:'lato';
+	font-size:10pt;
+	width:100%;
+	border:#4d4d4d;
+	height:150px;
+	clear:both;
+}
+#footer ul li{
+	display:block;
+	background-color:#4d4d4d;
+	
+}
+#footer a{
+	color:#b3b3b3;
+	text-decoration:none;
+	background-color:#4d4d4d;
+}
+#copyright{
+	background-color:#4d4d4d;
+	color:#b3b3b3;
+}
+.footerhead{
+color:#e6e6e6;
+	background-color:#4d4d4d;
+}
+.list{
+    float:left;
+	
+	background-color:#4d4d4d;
+	}
+	/* This is Css that will only appear on the home page*/
+#info{
+	
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+}
+#top{
+width:100%;
+}
+#top img{
+width:25%;
+float:left;
+}
+#mid{
+width:100%;
+clear:both;	
+}
+#mid img{
+width:100%;	
+}
+#bottom{
+width:100%;
+	
+}
+#bottom img{
+width:25%;
+	float:right;
+	height:310px;
+}
+	
+/* This will be CSS that is used only on the contact page */
+#contactsubmit{
+	height:40px;
+	font-size:14px;
+	background-color:#5AA330 !important;
+	color:#ffffff !important;
+	border: 2px solid #5AA330 !important;
+	margin-left:15px;
+	margin-bottom:10px;
+}
+#contactsubmit :hover{
+	height:40px;
+	font-size:16px;
+	background-color:#5AA330 !important;
+	color:#ffffff !important;
+	border: 3px solid #5AA330 !important;
+	margin-left:15px;
+	margin-bottom:10px;
+}
+
+#contactdiv{margin-left:15px;
+}
+
+/*This is CSS for the register page*/
+#registercon{
+	width:100%;
+}
+#leftcol{
+	width:50%; 
+	float:left;
+}
+#rightcol{
+	width:50%;
+	float:right;
+}
+#registerbutton{
+	height:40px;
+	font-size:14px;
+	background-color:#5AA330 !important;
+	color:#ffffff !important;
+	border: 2px solid #5AA330 !important;
+	width:120px;
+
+}
+#registerbutton :hover{
+	height:40px;
+	font-size:16px;
+	background-color:#5AA330 !important;
+	color:#ffffff !important;
+	border: 3px solid #5AA330 !important;
+	
+}
+#regsub{
+	width:20%;
+	margin:auto;
+	margin-bottom:30px;
+}
+/* This is CSS that will be only relvant to the login page */
+#logincon{
+margin:auto;
+margin-top:10px;
+width:25%;
+text-align:center;
+margin-bottom:150px;
+}
+#loginbutton{
+	height:40px;
+	font-size:14px;
+	background-color:#5AA330 !important;
+	color:#ffffff !important;
+	border: 2px solid #5AA330 !important;
+	margin-left:15px;
+	margin-bottom:10px;
+}
+/*Css which will be applied to the user page */
+#welcome{
+	width:20%;
+	margin:auto;
+	margin-bottom:30px;
+}
+/* Css for the admin page */
+#welcomeadmin{
+	width:20%;
+	margin:auto;
+	margin-bottom:30px;
+}
+
+/* CSS for all the store pages */
+#store{
+	color:#5a0030;
+}
+.icon img{
+	height:30px;
+	margin-top:1px;
+	margin-bottom:-4px;
+}
+
+#storepiclink{
+	width:75%;
+	margin:auto;
+	margin-top:10px;
+	margin-bottom:25px;
+}
+#storepiclink img{
+width:33%;
+height:250px;
+}
+#storetext{
+	width:50%;
+	margin:auto;
+	margin-bottom:15px;
+	font-size:24px;
+	text-align:center;
+}
+/*CSS for the Hydro section of the store */
+.hydroitem{
+	margin-left:4.15%;
+	margin-right:4.15%;
+	}
+.hydroitem img{
+width:25%;
+
+	}
+
+/* Css for the product editing page */
+.productItem{
+	width:70%;
+	margin-left:15%;
+	margin-right:15%;
+	border-style:solid;
+	border-width:2px;
+	border-color:#000000; 
+	
+}
+
+.productItem button{
+	width:15%;
+	color:white;
+	background-color:#5AA330;
+	border:#5AA330;
+	margin-top:-10px; 
+	
+	
+}
+.productIMG{
+margin-right:5%;
+	width:15%;
+	float:left;
+}
+.productIMG img{
+	width:100%;
+	opacity:0.8;
+	/*opacity for IE8 8*/
+	filter: alpha(opacity=80);
+}
+.produtInfo {
+
+	width:50%;
+float:left;
+	font-family:'lato';
+
+}
+.produtInfo textarea {
+
+	font-family:'lato';
+
+}
+.product_list_item_delete{
+	float:right;
+}
+#save{
+	width:100%;
+	
+}
+#save button{
+	
+	background-color:#5AA330;
+	border:1px solid #5AA330;
+	color:#ffffff;
+}
+textarea{
+	resize:none;
+}
+
+
+
+
+/* THIS WILL BE THE CSS FOR ANY DEVICE SMALLER THAN 725px .................................................................*/
+@media only screen and (max-width:825px){
+body{
+	
+}
+/* CSS That will affect the whole site */
+#greeting{
+	
+font-family: 'Bungee', cursive;
+	float:left;
+	font-size:16px;
+	padding-bottom:0;
+}
+#greeting img{
+	width:45px;
+	
+}
+#name{
+	color:#5AA330;
+}
+#hyperlinks{
+	clear:both;
+	background-color:#000000;
+	color:#ffffff;
+	font-size:15px;
+	font-family:'lato';
+}
+#hyperlinks a {
+	
+	background-color:#000000;
+	color:#ffffff;
+	text-decoration:none;
+}
+#hyperlinks ul li{
+	display:inline-block;
+	padding-right:10px;
+}
+#hyperlinks ul li .active{
+	display:inline-block;
+	background-color:#5AA330;
+	
+}
+#hyperlinks ul li :hover{
+	display:inline-block;
+	background-color:#5AA330;
+	
+}
+#footer{
+	background-color:#4d4d4d;
+	font-family:'lato';
+	font-size:10pt;
+	width:100%;
+	border:#4d4d4d;
+	height:150px;
+	clear:both;
+}
+#footer ul li{
+
+	background-color:#4d4d4d;
+	
+}
+#footer a{
+	color:#b3b3b3;
+	text-decoration:none;
+	background-color:#4d4d4d;
+}
+#copyright{
+	background-color:#4d4d4d;
+	color:#b3b3b3;
+}
+.footerhead{
+color:#e6e6e6;
+	background-color:#4d4d4d;
+}
+.list{
+ 
+	
+	background-color:#4d4d4d;
+	}
+	/* This is Css that will only appear on the home page*/
+#info{
+	
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+}
+#top{
+width:100%;
+}
+#top img{
+width:25%;
+float:left;
+}
+#mid{
+width:100%;
+clear:both;	
+}
+#mid img{
+width:100%;	
+}
+#bottom{
+width:100%;
+	
+}
+#bottom img{
+width:25%;
+	float:right;
+	height:200px;
+}
+	
+/* This will be CSS that is used only on the contact page */
+#contactsubmit{
+	height:40px;
+	font-size:14px;
+	background-color:#5AA330 !important;
+	color:#ffffff !important;
+	border: 2px solid #5AA330 !important;
+	margin-left:15px;
+	margin-bottom:10px;
+}
+#contactsubmit :hover{
+	height:40px;
+	font-size:16px;
+	background-color:#5AA330 !important;
+	color:#ffffff !important;
+	border: 3px solid #5AA330 !important;
+	margin-left:15px;
+	margin-bottom:10px;
+}
+
+#contactdiv{margin-left:15px;
+}
+
+/*This is CSS for the register page*/
+#registercon{
+	width:100%;
+}
+#leftcol{
+	width:50%; 
+	float:left;
+}
+#rightcol{
+	width:50%;
+	float:right;
+}
+#registerbutton{
+	height:40px;
+	font-size:14px;
+	background-color:#5AA330 !important;
+	color:#ffffff !important;
+	border: 2px solid #5AA330 !important;
+	width:120px;
+
+}
+#registerbutton :hover{
+	height:40px;
+	font-size:16px;
+	background-color:#5AA330 !important;
+	color:#ffffff !important;
+	border: 3px solid #5AA330 !important;
+	
+}
+#regsub{
+	width:20%;
+	margin:auto;
+	margin-bottom:30px;
+}
+/* This is CSS that will be only relvant to the login page */
+#logincon{
+margin:auto;
+margin-top:10px;
+width:25%;
+text-align:center;
+margin-bottom:150px;
+}
+#loginbutton{
+	height:40px;
+	font-size:14px;
+	background-color:#5AA330 !important;
+	color:#ffffff !important;
+	border: 2px solid #5AA330 !important;
+	margin-left:15px;
+	margin-bottom:10px;
+}
+/*Css which will be applied to the user page */
+#welcome{
+	width:20%;
+	margin:auto;
+	margin-bottom:30px;
+}
+/* Css for the admin page */
+#welcomeadmin{
+	width:20%;
+	margin:auto;
+	margin-bottom:30px;
+}
+
+/* CSS for all the store pages */
+#store{
+	color:#5a0030;
+}
+.icon img{
+	height:30px;
+	margin-top:1px;
+	margin-bottom:-4px;
+}
+#storepiclink{
+	width:90%;
+	margin:auto;
+	margin-top:10px;
+	margin-bottom:25px;
+}
+#storepiclink img{
+width:25%;
+margin:auto;
+height:250px;
+}
+#storetext{
+	width:50%;
+	margin:auto;
+	margin-bottom:15px;
+	font-size:24px;
+	text-align:center;
+}
+/*CSS for the Hydro section of the store */
+.hydroitem{
+	margin-left:4.15%;
+	margin-right:4.15%;
+	}
+.hydroitem img{
+width:25%;
+
+	}
+
+/* Css for the product editing page */
+.productItem{
+	width:70%;
+	margin-left:15%;
+	margin-right:15%;
+	border-style:solid;
+	border-width:2px;
+	border-color:#000000; 
+	
+}
+
+.productItem button{
+	width:15%;
+	color:white;
+	background-color:#5AA330;
+	border:#5AA330;
+	margin-top:-10px; 
+	
+	
+}
+.productIMG{
+margin-right:5%;
+	width:15%;
+	float:left;
+}
+.productIMG img{
+	width:100%;
+	opacity:0.8;
+	/*opacity for IE8 8*/
+	filter: alpha(opacity=80);
+}
+.produtInfo {
+
+	width:50%;
+float:left;
+	font-family:'lato';
+
+}
+.produtInfo textarea {
+
+	font-family:'lato';
+
+}
+.product_list_item_delete{
+	float:right;
+}
+#save{
+	width:100%;
+	
+}
+#save button{
+	
+	background-color:#5AA330;
+	border:1px solid #5AA330;
+	color:#ffffff;
+}
+textarea{
+	resize:none;
+}	
+}	

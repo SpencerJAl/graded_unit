@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>Store</title>
+ <link rel="icon" href="images/logo.png">
+ <link rel="stylesheet" href="CSS/Style.css">
+ <meta name="keywords" content="Lidiflu,Store,Products,PDF,Info">
+ <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+ <meta charset="UTF-8">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
+<!-- jQuery library -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<!-- Latest compiled JavaScript -->
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!-- store js script -->
+ <script src="store.js"></script>   
+</head>
+<body>
+ <div id="greeting">
+  <img src="images/logo.png" alt="The companys logo" id="logo">Welcome to<span id="name"> Lidiflu</span><span id="store"> Store</span>
+ </div>
+<!-- This will be the entire Main section of the site which will change on a page by page basis-->
+ <div id="hyperlinks">
+  <ul>
+   <li class="icon"><a href="index.html" class="hover"><img src="images/homeicon.png" alt="Home tag" class="icon"></a></li>
+   <li><a href="login.html" class="hover">Login</a></li>
+   <li><a href="register.html" class="hover" >Register</a></li>
+   <li>|</li>
+   <li class="icon"><a href="#" ><img src="images/cart.png" class="icon" alt="Cart icon link"></a></li>
+  </ul>
+ </div>
+<!-- The main content of the page will will change as different pages are clicked on -->
+ <div id="storepiclink">
+  <a href="#"><img src="images/solar.jpg" alt="solar anchor link"></a>
+  <a href="#"><img src="images/hydro.jpg" alt="solar anchor link"></a>
+  <a href="#"><img src="images/wind.jpg" alt="solar anchor link"></a>
+ </div>
+ <div id="storetext">
+  <p><b>Looking for alternative energy sources?</b> </p>
+  <p><b> Look below at our products, if you haven't got an account yet you can get one above </b> </p>
+ </div>
+<!-- This section of the page will hold the products users can buy -->
+ <div id="products">
+   <div id="solar">
+     <div id="app" class="container">
+      <h1>Store</h1>
+       <div class="row">
+         <table class="table">
+             <thead>
+              <tr>
+                 <th> Name </th>
+            
+            
+                  <th> Description </th>
+            
+            
+                  <th> Price </th>
+            
+        
+                  <th> Image </th>
+                 
+                  <th> Add to Basket </th>
+                 
+                  <th> Download PDF info sheet </th>
+                                
+              </tr>
+            </thead>
+            <tbody id="data">
+                
+                
+      </tbody>
+    </table>
+   </div>
+  </div>
+ </div>
+
+
+ </div>
+ <!-- The footer which will allow user to visit various hyperlinks through out the site, relevent Social Media and any legal information-->
+
+ <div id="footer">
+  <div class="list"><!-- Creates a coloumn of links -->
+   <ul>
+    <li class="footerhead">Site</li><!-- An over head to show how the links relate -->
+    <li><a href="index.html">Home</a></li>
+    <li><a href="login.html" class="hover">Login</a></li>
+    <li><a href="register.html" class="hover" >Register</a></li>
+    <li><a href="#" >Cart</a></li>
+   </ul>
+  </div>
+  <div class="list"><!-- Creates a coloumn of links -->
+   <ul>
+    <li class="footerhead">Social Media</li><!-- An over head to show how the links relate -->
+    <li><a href="www.facebook.com/Lidiflu">Facebook</a></li>
+    <li><a href="www.twitter.com/Lidiflu" >Twitter</a></li>
+   </ul>
+  </div>
+  <div class="list" ><!-- Creates a coloumn of links -->
+   <ul>
+    <li class="footerhead">Relevant Legal Information</li><!-- An over head to show how the links relate -->
+<!-- EU directive links and UK Acts -->
+    <li><a href="http://www.legislation.gov.uk/ukpga/1988/48/contents">Copyright, Designs and Patents Act(1988)</a></li>
+    <li><a href="http://www.legislation.gov.uk/ukpga/1982/29">Supply of Goods and Services Act (1982)</a></li>
+    <li><a href="http://www.legislation.gov.uk/ukpga/1990/18/contents">Computer Misuse Act (1990)</a></li>
+    <li id="copyright">&copy;Lidiflu Store</li>
+    </ul>
+  </div>
+ </div>
+</body>
+</html>
